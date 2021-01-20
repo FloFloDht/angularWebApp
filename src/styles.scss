@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: grey;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+div.border{
+    border :  10px whitesmoke double;
+    border-radius: 8px;
+}
+
+li{
+    color: white;
+}
