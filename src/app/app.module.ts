@@ -25,6 +25,7 @@ import { SecuAppliComponent } from './secu-appli/secu-appli.component';
 import { ArchiJEEComponent } from './archi-jee/archi-jee.component';
 import { IntegrationDonneesComponent } from './integration-donnees/integration-donnees.component';
 import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
     SecuAppliComponent,
     ArchiJEEComponent,
     IntegrationDonneesComponent,
-    StageOuTERComponent
+    StageOuTERComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
