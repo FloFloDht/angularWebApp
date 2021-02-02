@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AboutMeComponent } from './about-me/about-me.component';
 import { AnglaisComponent } from './anglais/anglais.component';
 import { ArchiJEEComponent } from './archi-jee/archi-jee.component';
 import { AROComponent } from './aro/aro.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:'', pathMatch:'full', redirectTo:'home'},
   {path: 'cours', component:CoursComponent},
   {path: 'home', component:HomeComponent},
+  {path: 'aboutme', component:AboutMeComponent},
   {path: 'cv', component:CvComponent},
   {path: 'projets', component:ProjetsComponent},
   {path: 'POC', component: POCComponent},
