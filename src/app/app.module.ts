@@ -26,6 +26,7 @@ import { ArchiJEEComponent } from './archi-jee/archi-jee.component';
 import { IntegrationDonneesComponent } from './integration-donnees/integration-donnees.component';
 import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     ArchiJEEComponent,
     IntegrationDonneesComponent,
     StageOuTERComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

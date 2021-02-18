@@ -18,6 +18,7 @@ import { HomeComponent } from './home/home.component';
 import { IHMComponent } from './ihm/ihm.component';
 import { IntegrationDonneesComponent } from './integration-donnees/integration-donnees.component';
 import { ISDComponent } from './isd/isd.component';
+import { PhotosComponent } from './photos/photos.component';
 import { POCComponent } from './poc/poc.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { ReseauxComponent } from './reseaux/reseaux.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path: 'aboutme', component:AboutMeComponent},
   {path: 'cv', component:CvComponent},
   {path: 'projets', component:ProjetsComponent},
+  {path : 'photos', component:PhotosComponent},
   {path: 'POC', component: POCComponent},
   {path: 'ARO', component: AROComponent},
   {path: 'complexite', component: ComplexiteComponent},
