@@ -5,3 +5,18 @@ h3{
 h2{
     color: rgb(73, 72, 72);
 }
+
+a:link{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+a:visited{
+    text-decoration: underline;
+    color: rgb(128, 128, 128);
+}
+
+a:hover{
+    color: rgb(128, 128, 128);
+    text-decoration: underline;
+}
