@@ -5,3 +5,18 @@ h1{
 p{
     color: rgb(73, 73, 73);
 }
+
+a:link{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+a:visited{
+    text-decoration: underline;
+    color: rgb(128, 128, 128);
+}
+
+a:hover{
+    color: rgb(128, 128, 128);
+    text-decoration: underline;
+}
