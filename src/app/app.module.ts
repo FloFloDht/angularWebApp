@@ -27,6 +27,8 @@ import { IntegrationDonneesComponent } from './integration-donnees/integration-d
 import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { PhotosComponent } from './photos/photos.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { PhotosComponent } from './photos/photos.component';
     IntegrationDonneesComponent,
     StageOuTERComponent,
     AboutMeComponent,
-    PhotosComponent
+    PhotosComponent,
+    ConnexionComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

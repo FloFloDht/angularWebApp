@@ -24,15 +24,19 @@ import { ProjetsComponent } from './projets/projets.component';
 import { ReseauxComponent } from './reseaux/reseaux.component';
 import { SecuAppliComponent } from './secu-appli/secu-appli.component';
 import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
+import {ConnexionComponent} from './connexion/connexion.component';
+import {AdminComponent} from './admin/admin.component';
 
 const routes: Routes = [
-  {path:'', pathMatch:'full', redirectTo:'home'},
-  {path: 'cours', component:CoursComponent},
-  {path: 'home', component:HomeComponent},
-  {path: 'aboutme', component:AboutMeComponent},
-  {path: 'cv', component:CvComponent},
-  {path: 'projets', component:ProjetsComponent},
-  {path : 'photos', component:PhotosComponent},
+  {path: '', pathMatch: 'full', redirectTo: 'home'},
+  {path: 'connexion', component: ConnexionComponent},
+  {path: 'admin', component: AdminComponent},
+  {path: 'cours', component: CoursComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'aboutme', component: AboutMeComponent},
+  {path: 'cv', component: CvComponent},
+  {path: 'projets', component: ProjetsComponent},
+  {path : 'photos', component: PhotosComponent},
   {path: 'POC', component: POCComponent},
   {path: 'ARO', component: AROComponent},
   {path: 'complexite', component: ComplexiteComponent},
@@ -60,4 +64,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routedComponent=[HomeComponent, CoursComponent];
+export const routedComponent = [HomeComponent, CoursComponent];
