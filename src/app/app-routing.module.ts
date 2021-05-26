@@ -23,7 +23,7 @@ import { POCComponent } from './poc/poc.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { ReseauxComponent } from './reseaux/reseaux.component';
 import { SecuAppliComponent } from './secu-appli/secu-appli.component';
-import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
+import { TerComponent } from './ter/ter.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -49,7 +49,7 @@ const routes: Routes = [
   {path: 'securite_application', component: SecuAppliComponent},
   {path: 'architecture_jee', component: ArchiJEEComponent},
   {path: 'integration_donnees', component: IntegrationDonneesComponent},
-  {path: 'stage_ter', component: StageOuTERComponent},
+  {path: 'stage_ter', component: TerComponent},
   {path: 'not-found', component: FourOhFourComponent },
   {path: '**', redirectTo: 'not-found' }
 

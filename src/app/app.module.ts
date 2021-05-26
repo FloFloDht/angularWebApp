@@ -24,7 +24,7 @@ import { CommunicationComponent } from './communication/communication.component'
 import { SecuAppliComponent } from './secu-appli/secu-appli.component';
 import { ArchiJEEComponent } from './archi-jee/archi-jee.component';
 import { IntegrationDonneesComponent } from './integration-donnees/integration-donnees.component';
-import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
+import { TerComponent } from './ter/ter.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { PhotosComponent } from './photos/photos.component';
 import { ConnexionComponent } from './connexion/connexion.component';
@@ -54,7 +54,7 @@ import { AdminComponent } from './admin/admin.component';
     SecuAppliComponent,
     ArchiJEEComponent,
     IntegrationDonneesComponent,
-    StageOuTERComponent,
+    TerComponent,
     AboutMeComponent,
     PhotosComponent,
     ConnexionComponent,
