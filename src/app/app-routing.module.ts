@@ -24,13 +24,9 @@ import { ProjetsComponent } from './projets/projets.component';
 import { ReseauxComponent } from './reseaux/reseaux.component';
 import { SecuAppliComponent } from './secu-appli/secu-appli.component';
 import { StageOuTERComponent } from './stage-ou-ter/stage-ou-ter.component';
-import {ConnexionComponent} from './connexion/connexion.component';
-import {AdminComponent} from './admin/admin.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
-  {path: 'connexion', component: ConnexionComponent},
-  {path: 'admin', component: AdminComponent},
   {path: 'cours', component: CoursComponent},
   {path: 'home', component: HomeComponent},
   {path: 'aboutme', component: AboutMeComponent},
