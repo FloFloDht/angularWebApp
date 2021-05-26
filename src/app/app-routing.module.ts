@@ -49,7 +49,7 @@ const routes: Routes = [
   {path: 'securite_application', component: SecuAppliComponent},
   {path: 'architecture_jee', component: ArchiJEEComponent},
   {path: 'integration_donnees', component: IntegrationDonneesComponent},
-  {path: 'stage_ter', component: TerComponent},
+  {path: 'ter', component: TerComponent},
   {path: 'not-found', component: FourOhFourComponent },
   {path: '**', redirectTo: 'not-found' }
 
