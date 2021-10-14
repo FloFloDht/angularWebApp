@@ -6,6 +6,7 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { HomeComponent } from './home/home.component';
 import { LanguageComponent } from './language/language.component';
 import {ProjetsComponent} from './projets/projets.component';
+import { ReactiveFormsModule } from '@angular/forms';  
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
@@ -20,7 +21,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+    ReactiveFormsModule
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
