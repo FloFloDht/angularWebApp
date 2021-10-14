@@ -11,7 +11,6 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactComponent } from './contact/contact.component';
 import { LanguageComponent } from './language/language.component';
-import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     ConnexionComponent,
     AdminComponent,
     ContactComponent,
-    LanguageComponent,
-    ContactFormComponent
+    LanguageComponent
   ],
   imports: [
     BrowserModule,
