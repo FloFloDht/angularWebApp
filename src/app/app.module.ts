@@ -10,6 +10,7 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminComponent } from './admin/admin.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AdminComponent } from './admin/admin.component';
     FourOhFourComponent,
     AboutMeComponent,
     ConnexionComponent,
-    AdminComponent
+    AdminComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
