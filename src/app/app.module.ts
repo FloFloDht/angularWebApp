@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
-import { AboutMeComponent } from './about-me/about-me.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AdminComponent } from './admin/admin.component';
 import { ContactComponent } from './contact/contact.component';
@@ -17,7 +16,6 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     ProjetsComponent,
     FourOhFourComponent,
-    AboutMeComponent,
     ConnexionComponent,
     AdminComponent,
     ContactComponent,
